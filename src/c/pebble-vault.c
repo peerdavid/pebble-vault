@@ -240,19 +240,19 @@ static void metal_effect_layer_update(Layer *layer, GContext *ctx) {
     
     switch(pattern) {
       case 0:
-        color = GColorLightGray;
+        color = GColorWhite;
         break;
       case 1:
         color = GColorWhite;
         break;
       case 2:
-        color = GColorLightGray;
+        color = GColorWhite;
         break;
       case 3:
-        color = GColorDarkGray;
+        color = GColorBlack;
         break;
       default:
-        color = GColorLightGray;
+        color = GColorWhite;
     }
     
     graphics_context_set_stroke_color(ctx, color);
